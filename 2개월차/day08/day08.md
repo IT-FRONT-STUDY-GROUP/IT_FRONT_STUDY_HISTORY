@@ -14,3 +14,9 @@
 ![alt text](image.png)
 
 - 충돌 해결을 위해서 git merge dev가 아닌 git pull origin dev로 하였을 때 아래 오류 발생 원인
+
+---
+
+- git checkout 의 기능 분리
+  - git switch
+  - git restore
