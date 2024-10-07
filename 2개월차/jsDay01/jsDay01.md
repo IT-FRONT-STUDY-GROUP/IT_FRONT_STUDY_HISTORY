@@ -18,3 +18,19 @@
 
 - 독서 동아리 전원 참석
 - 책 : js deep dive
+
+&nbsp;
+
+&nbsp;
+
+---
+
+## 질문사항
+
+### git 협업 플로우에서 main(master) 브랜치에 소스가 병합되는 시점 (지훈님)
+
+기존 협업 플로우
+![alt text](image-2.png)
+
+예상 협업 플로우
+![alt text](image-1.png)
