@@ -44,7 +44,7 @@ const answer = 40;
 
 if (a >= b) {
   answer = a;
-} else if (b > a) {
+} else {
   answer = b;
 }
 if (c > answer) {
