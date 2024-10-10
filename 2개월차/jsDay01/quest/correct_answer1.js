@@ -24,4 +24,4 @@ switch (c) {
     break;
 }
 
-console.log(whatIsThis);
+console.log(whatIsThis); // 30
