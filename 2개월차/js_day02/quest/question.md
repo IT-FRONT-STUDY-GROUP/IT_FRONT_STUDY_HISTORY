@@ -34,6 +34,13 @@ function addCD(){
 }
 console.log(addCD());
 console.log(c + d);
+
+let e = 50;
+{
+    let e = 70;
+    console.log(e); // 지역 변수 e(70)
+}
+console.log(e); // 전역 변수 e(50)
 ```
 
 # 문제 3

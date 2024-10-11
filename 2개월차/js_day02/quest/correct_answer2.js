@@ -20,3 +20,11 @@ function addCD(){
 }
 console.log(addCD()); // 지역변수 c(50)와 전역변수 d(40)가 더해져서 90
 console.log(c + d); // 전역변수 c(30)와 전역변수 d(40)가 더해져서 70
+
+
+let e = 50;
+{
+    let e = 70;
+    console.log(e); // 지역 변수 e(70)
+}
+console.log(e); // 전역 변수 e(50)
