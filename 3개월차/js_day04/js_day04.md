@@ -91,7 +91,7 @@ let menu = {
 function vendingMachine(money, order) {
    let price = menu[order];
 
-   if (price) return console.log(`존재하지 않는 메뉴입니다.`);
+   if (!price) return console.log(`존재하지 않는 메뉴입니다.`);
 
    let orderResult = '';
    if (menu[order] > money) orderResult = `요금이 부족합니다. 반환 ${money}원`;
